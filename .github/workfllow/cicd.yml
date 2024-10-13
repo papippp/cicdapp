@@ -43,5 +43,5 @@ jobs :
                - PR Link : ${{ github.event.pull_request.html_url }}
 
                Please check the details in the Github Actions logs.
-            to : papipaid98@gmail.com
+            to : dlukzy@gmail.com
             from: CI Bot <ci-bot@example.com>
