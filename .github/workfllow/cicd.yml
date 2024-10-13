@@ -13,7 +13,7 @@ jobs :
         
         
         name : Set up Node.js
-        uses : actions/setuo-node@v3
+        uses : actions/setup-node@v3
         with :
            node-version : "16"
         
@@ -43,5 +43,5 @@ jobs :
                - PR Link : ${{ github.event.pull_request.html_url }}
 
                Please check the details in the Github Actions logs.
-            to : papipaid98@gmail.com
+            to : dlukzy@gmail.com
             from: CI Bot <ci-bot@example.com>
